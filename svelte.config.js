@@ -10,6 +10,17 @@ const config = {
     // hydrate the <div id="svelte"> element in src/app.html
     target: '#svelte',
     adapter: adapter(),
+    vite: {
+      server: {
+        hmr: {
+          host: 'localhost'
+        }
+      }
+    },
+    paths: {
+      base: process.env.NODE_ENV === 'development' ? '' : '/ilmannafian04',
+      assets: process.env.NODE_ENV === 'development' ? '' : '/ilmannafian04'
+    },  
   },
 };
 
