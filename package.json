@@ -1,5 +1,8 @@
 {
   "name": "ilmannafian04.github.io",
+  "description": "Personal portfolio v2. v1 @ https://github.com/ilmannafian04/ilmannafian04.gitlab.io",
+  "repository": "github:ilmannafian04/ilmannafian04.github.io",
+  "license": "MIT",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
