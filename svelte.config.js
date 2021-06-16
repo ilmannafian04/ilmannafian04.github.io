@@ -18,8 +18,8 @@ const config = {
       }
     },
     paths: {
-      base: process.env.CI === 'true' ? '/ilmannafian04' : '',
-      assets: process.env.CI === 'true' ? '/ilmannafian04' : '',
+      base: process.env.CI === 'true' ? '/ilmannafian04.github.io' : '',
+      assets: process.env.CI === 'true' ? '/ilmannafian04.github.io' : '',
     },  
   },
 };
