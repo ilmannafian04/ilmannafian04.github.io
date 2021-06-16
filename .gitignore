@@ -3,8 +3,9 @@ node_modules
 /.svelte-kit
 /package
 
-# Created by https://www.toptal.com/developers/gitignore/api/node,jetbrains+all,visualstudiocode,dotenv
-# Edit at https://www.toptal.com/developers/gitignore?templates=node,jetbrains+all,visualstudiocode,dotenv
+
+# Created by https://www.toptal.com/developers/gitignore/api/node,dotenv,jetbrains+all,visualstudiocode,yarn
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,dotenv,jetbrains+all,visualstudiocode,yarn
 
 ### dotenv ###
 .env
@@ -225,10 +226,10 @@ temp/
 
 ### VisualStudioCode ###
 .vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+# !.vscode/settings.json
+# !.vscode/tasks.json
+# !.vscode/launch.json
+# !.vscode/extensions.json
 *.code-workspace
 
 ### VisualStudioCode Patch ###
@@ -236,4 +237,20 @@ temp/
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/node,jetbrains+all,visualstudiocode,dotenv
+### yarn ###
+# https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+
+.yarn/*
+# !.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# if you are NOT using Zero-installs, then:
+# comment the following lines
+# !.yarn/cache
+
+# and uncomment the following lines
+# .pnp.*
+
+# End of https://www.toptal.com/developers/gitignore/api/node,dotenv,jetbrains+all,visualstudiocode,yarn
