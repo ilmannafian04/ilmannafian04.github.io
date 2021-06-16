@@ -18,8 +18,8 @@ const config = {
       }
     },
     paths: {
-      base: process.env.NODE_ENV === 'development' ? '' : '/ilmannafian04',
-      assets: process.env.NODE_ENV === 'development' ? '' : '/ilmannafian04'
+      base: process.env.CI === 'true' ? '/ilmannafian04' : '',
+      assets: process.env.CI === 'true' ? '/ilmannafian04' : '',
     },  
   },
 };
