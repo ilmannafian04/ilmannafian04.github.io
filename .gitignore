@@ -2,7 +2,7 @@
 node_modules
 /.svelte-kit
 /package
-
+build
 
 # Created by https://www.toptal.com/developers/gitignore/api/node,dotenv,jetbrains+all,visualstudiocode,yarn
 # Edit at https://www.toptal.com/developers/gitignore?templates=node,dotenv,jetbrains+all,visualstudiocode,yarn
