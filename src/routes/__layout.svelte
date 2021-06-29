@@ -1,5 +1,9 @@
 <script lang="ts">
-    import '../app.postcss'
+  import Nav from '../components/Nav.svelte';
+  import '../app.postcss';
 </script>
 
-<slot></slot>
+<Nav />
+<div class="w-screen">
+  <slot />
+</div>

@@ -23,6 +23,7 @@ const config = {
     extend: {},
   },
   plugins: [],
+  darkMode: 'media',
 };
 
 module.exports = config;
