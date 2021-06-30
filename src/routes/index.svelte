@@ -15,7 +15,7 @@
 </script>
 
 <div class="min-h-screen flex justify-center items-center bg-gray-800">
-  <div class="flex flex-col w-1/2">
+  <div class="flex flex-col sm:w-1/2 w-screen">
     {#each names.slice(0, 3) as name, i (name)}
       <span
         animate:flip={{ duration }}
