@@ -4,7 +4,7 @@
   import { fly } from 'svelte/transition';
 
   const duration = 900;
-  let names = ['M. Ilman Nafian', 'Ilman', 'Ian', 'Man'];
+  let names = ['M. Ilman Nafian', 'Ilman', 'Ian', 'Man', 'Less', 'Lesser', 'LesserMaim', 'Alerion'];
 
   onMount(() => {
     let cycleName = setInterval(() => {
