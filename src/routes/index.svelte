@@ -3,13 +3,25 @@
   import { flip } from 'svelte/animate';
   import { fly } from 'svelte/transition';
 
+  import { shuffleArray } from '../util/arrayUtil';
+
   const duration = 900;
-  let names = ['M. Ilman Nafian', 'Ilman', 'Ian', 'Man', 'Less', 'Lesser', 'LesserMaim', 'Alerion'];
+  let names = [];
 
   onMount(() => {
     let cycleName = setInterval(() => {
       names = [...names.slice(1), names[0]];
     }, 4000);
+    names = shuffleArray([
+      'M. Ilman Nafian',
+      'Ian',
+      'Man',
+      'Less',
+      'Lesser',
+      'LesserMaim',
+      'Alerion',
+    ]);
+    names = [names[0], 'Ilman', ...names.slice(2)];
     return () => clearInterval(cycleName);
   });
 </script>
